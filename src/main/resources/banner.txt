@@ -1,0 +1,1 @@
+Running Spring Boot ${spring-boot.version} :: ${AnsiColor.BLACK}

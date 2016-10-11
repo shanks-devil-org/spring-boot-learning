@@ -1,0 +1,19 @@
+server:
+  port: 8888
+
+spring:
+  profiles:
+    active: local
+---
+server:
+  port: 10101
+spring:
+  profiles: beta
+---
+server:
+  port: 8080
+spring:
+  profiles: release
+---
+spring:
+  profiles: test
